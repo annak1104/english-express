@@ -144,7 +144,7 @@ const QuizSection = () => {
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: 0.2 }}
-                  className="font-open-sans text-lg mb-8 text-center text-[#1ABC9C]"
+                  className="font-open-sans text-lg mb-8 text-center text-[#03846b]"
                 >
                   Take this quick quiz to get a personalized learning plan—and
                   discover how you can make money while mastering English!

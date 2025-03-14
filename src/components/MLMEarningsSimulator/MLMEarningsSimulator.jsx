@@ -22,7 +22,7 @@ const MLMEarningsSimulator = () => {
   return (
     <div className="bg-white shadow-lg p-6 rounded-lg text-center max-w-md mx-auto">
       <h2 className="font-montserrat text-2xl font-bold mb-4">
-        Your MLM Earnings Simulator
+        Your Referral system Earnings Simulator
       </h2>
       <p className="font-open-sans text-lg text-gray-700 mb-4">
         Adjust the slider to estimate your potential earnings.
