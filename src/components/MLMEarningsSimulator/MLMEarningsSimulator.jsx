@@ -14,7 +14,7 @@ const MLMEarningsSimulator = () => {
 
   const handleNextValue = (value) => {
     const closest = validRecruits.reduce((prev, curr) =>
-      Math.abs(curr - value) < Math.abs(prev - value) ? curr : prev
+      Math.abs(curr - value) < Math.abs(prev - value) ? curr : prev,
     );
     setRecruits(closest);
   };
@@ -43,7 +43,8 @@ const MLMEarningsSimulator = () => {
         ${earningsData[recruits] || "-"}
       </p>
       <p className="italic text-gray-400 mt-3 text-xs">
-        Your income is not guaranteed, these figures are estimates.
+        Disclaimer: Examples only; no earnings guaranteed. Actual results vary
+        based on effort.
       </p>
     </div>
   );
