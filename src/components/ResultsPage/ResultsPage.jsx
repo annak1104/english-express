@@ -1,4 +1,5 @@
 import React from "react";
+
 import telegram from "../../assets/telegram.svg";
 
 const ResultsPage = ({ answers }) => {
@@ -47,7 +48,7 @@ const ResultsPage = ({ answers }) => {
       <div className="mt-6 flex flex-col items-center">
         <img src={telegram} className="w-12 h-12 mb-2" alt="Telegram Logo" />
         <p className="text-gray-700 text-center">
-          Join our Telegram community for instant updates and support!
+          You need Telegram installed to enjoy our app
         </p>
       </div>
     </div>

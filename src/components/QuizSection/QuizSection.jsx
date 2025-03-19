@@ -138,7 +138,7 @@ const QuizSection = () => {
                   transition={{ duration: 0.5 }}
                   className="font-montserrat font-bold text-4xl md:text-5xl mb-6 text-center text-[#2C3E50]"
                 >
-                  Find Out Your English Level & Earn While Learning!
+                  Your English Skills to Boost Your Career and Earn While Learning!
                 </motion.h1>
                 <motion.p
                   initial={{ opacity: 0, y: 20 }}
