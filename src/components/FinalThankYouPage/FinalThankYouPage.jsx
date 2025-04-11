@@ -1,4 +1,5 @@
 import React from "react";
+
 import telegramIcon from "../../assets/telegram.svg";
 
 const FinalThankYouPage = () => {
@@ -16,10 +17,14 @@ const FinalThankYouPage = () => {
 
       {/* Telegram & Quick Payment Reminder */}
       <div className="mt-8 flex flex-col items-center">
-        <img src={telegramIcon} alt="Telegram Logo" className="w-12 h-12 mb-4" />
+        <img
+          src={telegramIcon}
+          alt="Telegram Logo"
+          className="w-12 h-12 mb-4"
+        />
         <p className="font-open-sans text-lg text-gray-700 max-w-lg">
-          Stay connected for the latest updates & fast payment options. Join our 
-          Telegram community today!
+          Join EnglishExpress on Telegram and access your unique invite link to
+          start referring and earning rewards!
         </p>
       </div>
     </div>
