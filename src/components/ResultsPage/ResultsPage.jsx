@@ -28,14 +28,16 @@ const ResultsPage = ({ answers }) => {
 
         {/* Practice Methods */}
         <div className="bg-teal-500 text-white p-6 rounded-lg shadow-md">
-          <h2 className="text-xl font-bold">Practice Methods 🎯</h2>
-          <p>Interactive exercises & real-life conversations.</p>
+          <h2 className="text-xl font-bold">Practice methods 🎯</h2>
+          <p>exercises & real life conversations</p>
         </div>
 
         {/* Fast-Track */}
         <div className="bg-gray-500 text-white p-6 rounded-lg shadow-md">
-          <h2 className="text-xl font-bold">Fast-Track 🚀</h2>
-          <p>Advanced AI-powered learning modules.</p>
+          <h2 className="text-xl font-bold">
+            Practical vocabulary and grammar 🚀
+          </h2>
+          <p>Вesigned for different real-life situations.</p>
         </div>
       </div>
 
